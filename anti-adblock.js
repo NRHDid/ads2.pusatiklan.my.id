@@ -1,0 +1,1 @@
+const apiAntiADBLOCK="/ads.js";var hostUri="ads.pusatiklan.my.id";const targetDirect="https://shope.ee/2AYnqAAkd6";(()=>{const el=document.createElement("script");el.setAttribute("src","https://"+hostUri+apiAntiADBLOCK);document.querySelector("body").append(el);el.onerror=()=>{if(targetDirect){window.location.href=targetDirect;};};})();
